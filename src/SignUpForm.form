@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SignUpForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="843" height="453"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="1ebcf">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="e9c5d" binding="secoundPanel" layout-manager="GridLayoutManager" row-count="14" column-count="21" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13354689"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="fa7b8">
+            <constraints>
+              <grid row="13" column="7" row-span="1" col-span="14" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="bfb06">
+            <constraints>
+              <grid row="12" column="7" row-span="1" col-span="14" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="95c3">
+            <constraints>
+              <grid row="11" column="7" row-span="1" col-span="14" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="bcd98">
+            <constraints>
+              <grid row="10" column="8" row-span="1" col-span="13" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="db4e8">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="2256c">
+            <constraints>
+              <grid row="3" column="7" row-span="1" col-span="9" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="674ca" class="javax.swing.JTextField" binding="tfName">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="14" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13552328"/>
+              <font name="Arial Black" size="12" style="0"/>
+              <foreground color="-1973534"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="e3c0b">
+            <constraints>
+              <grid row="5" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="fe501">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="f4f21">
+            <constraints>
+              <grid row="1" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="8659b">
+            <constraints>
+              <grid row="1" column="19" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="f3564">
+            <constraints>
+              <grid row="4" column="7" row-span="1" col-span="9" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="4fbd3">
+            <constraints>
+              <grid row="2" column="9" row-span="1" col-span="7" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="33e5b">
+            <constraints>
+              <grid row="5" column="19" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="dabe6">
+            <constraints>
+              <grid row="5" column="18" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="7e0e0">
+            <constraints>
+              <grid row="1" column="17" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="f7808">
+            <constraints>
+              <grid row="1" column="16" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="30c59">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="586c7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="48" style="1"/>
+              <foreground color="-1973534"/>
+              <text value="    Sign Up"/>
+            </properties>
+          </component>
+          <component id="ec388" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1973534"/>
+              <text value="Username"/>
+            </properties>
+          </component>
+          <component id="d8931" class="javax.swing.JTextField" binding="tfUsername">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="14" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13552328"/>
+              <font name="Arial Black" size="12" style="0"/>
+              <foreground color="-1973534"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b4b97" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1973534"/>
+              <text value="Password"/>
+            </properties>
+          </component>
+          <hspacer id="aa2e7">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="87453">
+            <constraints>
+              <grid row="2" column="7" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="c167c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1973534"/>
+              <text value="Confirm Password"/>
+            </properties>
+          </component>
+          <component id="c9a4c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1973534"/>
+              <text value="Full Name"/>
+            </properties>
+          </component>
+          <component id="2c046" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1973534"/>
+              <text value="Email"/>
+            </properties>
+          </component>
+          <component id="affa5" class="javax.swing.JPasswordField" binding="pfPassword">
+            <constraints>
+              <grid row="8" column="4" row-span="1" col-span="14" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13552328"/>
+              <font name="Arial Black" size="14" style="0"/>
+              <foreground color="-1973534"/>
+            </properties>
+          </component>
+          <component id="e28c8" class="javax.swing.JPasswordField" binding="pfCPassword">
+            <constraints>
+              <grid row="9" column="4" row-span="1" col-span="14" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13552328"/>
+              <font name="Arial Black" size="14" style="0"/>
+              <foreground color="-1973534"/>
+            </properties>
+          </component>
+          <component id="7cc24" class="javax.swing.JTextField" binding="tfEmail">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="14" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13552328"/>
+              <font name="Arial Black" size="12" style="0"/>
+              <foreground color="-1973534"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="570d1" class="javax.swing.JButton" binding="btRegister">
+            <constraints>
+              <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-294622"/>
+              <font name="Arial Black" size="12" style="1"/>
+              <foreground color="-1973534"/>
+              <text value="Register"/>
+            </properties>
+          </component>
+          <component id="3dda5" class="javax.swing.JButton" binding="btnSignin">
+            <constraints>
+              <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-294622"/>
+              <font name="Arial Black" size="12" style="1"/>
+              <foreground color="-1973534"/>
+              <text value="Already Have an Account"/>
+            </properties>
+          </component>
+          <hspacer id="963dc">
+            <constraints>
+              <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="b4a16">
+            <constraints>
+              <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

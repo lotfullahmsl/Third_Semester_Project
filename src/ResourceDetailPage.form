@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ResourceDetailPage">
+  <grid id="27dc6" binding="RDPPanel" layout-manager="GridLayoutManager" row-count="14" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="10" bottom="20" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="768" height="591"/>
+    </constraints>
+    <properties>
+      <background color="-14867928"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="3406d">
+        <constraints>
+          <grid row="2" column="11" row-span="12" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="dbf42" class="javax.swing.JComboBox" binding="cbTopic">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="a292b">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="8" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="4f425">
+        <constraints>
+          <grid row="0" column="0" row-span="13" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="42268" class="javax.swing.JComboBox" binding="cbTitle">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="8" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f4b58" class="javax.swing.JTextField" binding="tfSearch">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="12" style="0"/>
+        </properties>
+      </component>
+      <scrollpane id="64e01" binding="SPtitle">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a9cbf" class="javax.swing.JTable" binding="tTitles">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="7bf41" binding="SPArticle">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6de3e" class="javax.swing.JTextPane" binding="tpArticle">
+            <constraints/>
+            <properties>
+              <font name="Arial Black" size="14" style="0"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <vspacer id="91d36">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <scrollpane id="72dd4" binding="spfeedback">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a9fe4" class="javax.swing.JTextPane" binding="tpComment">
+            <constraints/>
+            <properties>
+              <font name="Arial Black" size="14" style="0"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="957b6" class="javax.swing.JComboBox" binding="cbRating">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="d47ff">
+        <constraints>
+          <grid row="12" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="bf407">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="3e46" class="javax.swing.JButton" binding="btnSubmit">
+        <constraints>
+          <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-294622"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <hspacer id="421dc">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="8" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="f4c44" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1973534"/>
+          <font name="Arial Black" size="48" style="1"/>
+          <foreground color="-1973534"/>
+          <text value="Resource Detail Page"/>
+        </properties>
+      </component>
+      <vspacer id="79cc6">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c6fa3" class="javax.swing.JLabel" binding="lblLoading">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="12" style="0"/>
+          <foreground color="-1973534"/>
+          <text value="Loading..."/>
+        </properties>
+      </component>
+      <component id="6bd02" class="javax.swing.JButton" binding="btnLoad">
+        <constraints>
+          <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-294622"/>
+          <text value="Load"/>
+        </properties>
+      </component>
+      <component id="f8894" class="javax.swing.JButton" binding="btnSearch">
+        <constraints>
+          <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-294622"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="40af8" class="javax.swing.JCheckBox" binding="chRead">
+        <constraints>
+          <grid row="10" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14867928"/>
+          <foreground color="-1973534"/>
+          <text value="Mark as Read"/>
+        </properties>
+      </component>
+      <component id="2850f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-1973534"/>
+          <text value="Select A Topic"/>
+        </properties>
+      </component>
+      <component id="bad9f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-1973534"/>
+          <text value="Choose An Article"/>
+        </properties>
+      </component>
+      <component id="b1829" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-1973534"/>
+          <text value="Search An Article"/>
+        </properties>
+      </component>
+      <component id="8376c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-1973534"/>
+          <text value="Avilible Articles"/>
+        </properties>
+      </component>
+      <component id="22dfe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-1973534"/>
+          <text value="Article"/>
+        </properties>
+      </component>
+      <component id="79441" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-1973534"/>
+          <text value="Your Comment"/>
+        </properties>
+      </component>
+      <component id="cadfd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14" style="1"/>
+          <foreground color="-1973534"/>
+          <text value="Rate Here"/>
+        </properties>
+      </component>
+      <component id="c8b8d" class="javax.swing.JButton" binding="btnPrev">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-294622"/>
+          <font size="16"/>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="2"/>
+          <text value="←"/>
+        </properties>
+      </component>
+      <component id="235c1" class="javax.swing.JButton" binding="btnNext">
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-294622"/>
+          <font size="16"/>
+          <horizontalAlignment value="10"/>
+          <text value="→"/>
+        </properties>
+      </component>
+      <hspacer id="bfacd">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="f9ee7">
+        <constraints>
+          <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="d5ed2" class="javax.swing.JComboBox" binding="cbDifficuty">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
